@@ -314,3 +314,10 @@ function ready() {
         };
     };
 };
+
+var compareRandom = function () {
+  return Math.random() > 0.5;
+};
+
+сортировка в случайном порядке
+*переменная*.sort(compareRandom);
